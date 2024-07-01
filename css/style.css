@@ -52,10 +52,6 @@ body {
     margin-bottom: 2rem;
 }
 
-img {
-    border-radius: 50%;
-}
-
 .links__list {
     list-style: none;
 }
@@ -83,16 +79,15 @@ img {
         padding: 2rem;
         border-radius: 1.5rem;
     }
-
-
-    .profile__image-box {
-        margin-bottom: 2rem;
-    }
 }
 
 @media screen and (max-width:600px) {
     .header {
         font-size: 2.5rem;
+    }
+
+    .profile__details {
+        margin-top: 2rem;
     }
 
     .profile__heading, .goals__heading, .links__heading {
