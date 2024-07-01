@@ -49,11 +49,11 @@ body {
 }
 
 .profile__details > * {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 img {
-    width: intrinsic;
+    max-width: 100%;
     height: auto;
     border-radius: 50%;
 }
@@ -92,11 +92,7 @@ img {
     }
 }
 
-@media screen and (max-width:750px) {
-    .profile__body {
-        flex-direction: column-reverse;
-    }
-}
+
 
 @media screen and (max-width:600px) {
     .header {
