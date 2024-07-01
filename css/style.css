@@ -53,6 +53,8 @@ body {
 }
 
 img {
+    width: intrinsic;
+    height: auto;
     border-radius: 50%;
 }
 
@@ -87,6 +89,12 @@ img {
 
     .profile__image-box {
         margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .profile__body {
+        flex-direction: column-reverse;
     }
 }
 
