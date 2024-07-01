@@ -49,12 +49,10 @@ body {
 }
 
 .profile__details > * {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
     border-radius: 50%;
 }
 
@@ -91,8 +89,6 @@ img {
         margin-bottom: 2rem;
     }
 }
-
-
 
 @media screen and (max-width:600px) {
     .header {
